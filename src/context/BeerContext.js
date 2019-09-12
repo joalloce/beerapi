@@ -17,7 +17,6 @@ const BeerContextProvider = props => {
       setBeerList(result.data);
     };
     fetchData();
-    console.log(search)
   }, [search]);
 
   return (
